@@ -1,0 +1,66 @@
+html, body 
+{
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CONTENU!!!!!!!!*/
+
+#grosbloc
+{
+    width: 990px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* bloc texte */
+
+#blocg
+{
+    display:block;
+    float: left;
+    width: 480px;
+}
+/* bloc image */
+#blocd
+{
+   display:block;
+   float:right;
+    width: 480px;
+   
+
+}
+
+/* image */
+
+.ima
+{
+    width: 350px;
+    height: 200px;
+    
+}
+#gallery > img 
+{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#gallery > img:nth-child(even)
+{
+    margin-right: 0px;
+}
+
+#text
+{
+ margin-left: auto;
+}
+
+
+
+
+
+/* fin */

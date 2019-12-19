@@ -1,0 +1,64 @@
+/* mise en place du css*/
+html, body 
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenu de la PAGE */
+
+#grosbloc
+{
+    width: 990px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Bloc Gauche soit le texte */
+#blocg
+{
+    display:block;
+    float: left;
+    width: 480px;
+}
+
+/* Bloc droite soit l'image */
+#blocd
+{
+   display:block;
+   float:right;
+    width: 480px;
+   
+
+}
+
+/* Image */
+.ima
+{
+    width: 350px;
+    height: 200px;
+    
+}
+#gallery > img 
+{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#gallery > img:nth-child(even)
+{
+    margin-right: 0px;
+}
+
+#text
+{
+ margin-left: auto;
+}
+
+/* Fin de la Page */
+
+
+

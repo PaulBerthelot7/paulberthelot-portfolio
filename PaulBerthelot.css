@@ -1,0 +1,121 @@
+html, body 
+{
+    margin: 0;
+    padding: 0;
+}
+#herop
+{
+    background-color: #db323a;
+    background-image: url() ;
+    background-repeat:no-repeat;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.piedp
+{
+    font-size: 20px;
+}
+.logo1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+h1
+{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 70px;
+    
+}
+/*CONTENU !!!!!!!!!!!!!!!*/
+
+
+#grosbloc
+{
+    width: 990px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.seea
+{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: right;
+    color: black;
+}
+
+
+.ima
+{
+    width: 310px;
+    height: 199px;
+    
+}
+#gallery > img 
+{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#gallery > img:nth-child(even)
+{
+    margin-right: 0px;
+}
+
+#gallery>a
+{
+    display: block ;
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 310px;
+    text-align: center;
+}
+
+#gallery
+{
+    margin-left: -30px;
+}
+/* .Post{
+    position: relative;
+    cursor: pointer;
+}
+.Post img{}
+ */
+
+a
+{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+
+
+/* fin */
+
+
+

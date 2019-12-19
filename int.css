@@ -1,0 +1,160 @@
+html, body 
+{
+    margin: 0;
+    padding: 0;
+}
+#herop
+{
+    background-color: #db323a;
+    background-image: url() ;
+    background-repeat:no-repeat;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.logo1
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+h1
+{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 70px;
+    
+}
+
+/* CONTENU!!!!!!!!*/
+
+#grosbloc
+{
+    width: 990px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#blocg
+{
+    display:block;
+    float: left;
+    width: 480px;
+}
+#blocd
+{
+   display:block;
+   float:right;
+    width: 480px;
+   
+
+}
+
+
+
+.ima
+{
+    width: 350px;
+    height: 200px;
+    
+}
+#gallery > img 
+{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#gallery > img:nth-child(even)
+{
+    margin-right: 0px;
+}
+
+#text
+{
+ margin-left: auto;
+}
+a
+{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+p, h2
+{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+/* ZONE FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!*/
+footer
+{
+    margin-top: 80px;
+    color: white;
+    background-color: black;
+    height: 200px;
+}
+
+.blockfooters
+{
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foot
+{   
+    float: left;
+        margin-top: 25px;
+        margin-right:50px;
+        line-height: 150px;
+        
+}
+#logooo
+
+{
+    font-size: 25px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+#home
+{   
+    margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#contact
+{   
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#galleryss
+{   
+    margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
