@@ -2,6 +2,6 @@
 projet portfolio
 
 
-Mon index = paulberthelot.html
+Mon index = paulberthelot.html et paulberthelot.css
 
 Merci
