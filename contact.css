@@ -67,9 +67,9 @@ html, body
    float:right;
     width: 480px;
    
-
+/* ajustement texte input */
 }
-#alexis
+#parag
 {
     resize: none;
 }
@@ -96,6 +96,7 @@ html, body
     margin-right: 0px;
 }
 
+/* ajustement text */
 #text
 {
  margin-left: auto;

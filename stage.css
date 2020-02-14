@@ -1,4 +1,4 @@
-/* debut */
+/* mise en page */
 html, body 
 {
     font-family: 'Roboto', sans-serif;
@@ -43,7 +43,7 @@ html, body
 }
 
 
-
+/* div */
 
 #grosbloc
 {
@@ -53,13 +53,15 @@ html, body
     margin-right: auto;
 }
 
-
+/* bloc texte */
 #blocg
 {
     display:block;
     float: left;
     width: 480px;
 }
+
+/* bloc image */
 #blocd
 {
    display:block;
@@ -89,7 +91,7 @@ html, body
 {
     margin-right: 0px;
 }
-
+/* ajustement texte */
 #text
 {
  margin-left: auto;
@@ -97,3 +99,5 @@ html, body
 
 
 /* fin */
+
+/* par Paul Berthelot */

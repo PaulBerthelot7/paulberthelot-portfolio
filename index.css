@@ -39,7 +39,7 @@ html, body
     margin-left: auto;
     margin-right: auto;
 }
-
+/* image */
 .ima
 {
     box-shadow: 1px 4px 6px rgb(0, 0, 0);
@@ -78,10 +78,6 @@ html, body
     padding-bottom: 15px;
 
 }
-
-
-
-
 
 /* text */
 
