@@ -65,6 +65,7 @@ html, body
 {
     width: 350px;
     height: 200px;
+    box-shadow: 1px 4px 6px rgb(0, 0, 0);
     
 }
 #gallery > img 
@@ -95,63 +96,9 @@ p, h2
 
 }
 
-
-/* ZONE FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!*/
-footer
+/* mise en page du h2 */
+.para
 {
-    margin-top: 80px;
-    color: white;
-    background-color: black;
-    height: 200px;
-}
-
-.blockfooters
-{
-    width: 990px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.foot
-{   
-    float: left;
-        margin-top: 25px;
-        margin-right:50px;
-        line-height: 150px;
-        
-}
-#logooo
-
-{
-    font-size: 25px;
-    float: right;
-    margin-right: 25px;
-    margin-top: 50px;
-}
-
-#home
-{   
-    margin-right: 50px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-}
-
-#contact
-{   
-    
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-}
-
-#galleryss
-{   
-    margin-right: 50px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
+    border-bottom: solid black 2px;
+      
 }

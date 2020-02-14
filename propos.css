@@ -5,7 +5,7 @@ html, body
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    
 
 
 }
@@ -74,7 +74,6 @@ html, body
 {
 
     box-shadow: 1px 4px 6px rgb(0, 0, 0);
-      
     width: 350px;
     height: 200px;
     

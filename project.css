@@ -22,6 +22,14 @@ html, body
     bottom: 18px;
 }
 
+/* mise en page du h2 */
+.para
+{
+    border-bottom: solid black 2px;
+      
+}
+
+
 
 
 /* header */
@@ -64,6 +72,7 @@ html, body
 /* Image */
 .ima
 {
+    box-shadow: 1px 4px 6px rgb(0, 0, 0);
     width: 350px;
     height: 200px;
     

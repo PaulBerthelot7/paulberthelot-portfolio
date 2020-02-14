@@ -29,6 +29,15 @@ html, body
 
 /* Contenu de la page */
 
+/* mise en page du h2 */
+.para
+{
+    border-bottom: solid black 2px;
+      
+}
+
+
+
 /* Style sous-lignage */
 .surl
 {
