@@ -7,6 +7,34 @@ html, body
 
 /* CONTENU!!!!!!!!*/
 
+
+/* header */
+#header
+{
+    border-bottom: 2px solid blue;
+
+}
+
+
+
+
+/* icon */
+#dl
+{
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+}
+#slash
+{
+    position: absolute;
+    right: 100px;
+    bottom: 18px;
+}
+
+
+
+
 #grosbloc
 {
     width: 990px;

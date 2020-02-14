@@ -8,6 +8,33 @@ html, body
 
 /* Contenu de la PAGE */
 
+/* icon */
+#dl
+{
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+}
+#slash
+{
+    position: absolute;
+    right: 100px;
+    bottom: 18px;
+}
+
+
+
+/* header */
+#header
+{
+    border-bottom: 2px solid blue;
+
+}
+
+
+
+
+
 #grosbloc
 {
     width: 990px;

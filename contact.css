@@ -1,14 +1,41 @@
+/* mise en page */
 html, body 
 {
     font-family: 'Roboto', sans-serif;
-
     margin: 0;
     padding: 0;
 }
 
+/* header */
+#header
+{
+    border-bottom: 2px solid blue;
 
-/* CONTENU!!!!!!!!*/
+}
 
+/* icon */
+#dl
+{
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+}
+#slash
+{
+    position: absolute;
+    right: 100px;
+    bottom: 18px;
+}
+
+/* Contenu de la page */
+
+/* Style sous-lignage */
+.surl
+{
+    text-decoration: underline;
+}
+
+/* contenu primaire */
 #grosbloc
 {
     width: 990px;
@@ -33,6 +60,12 @@ html, body
    
 
 }
+#alexis
+{
+    resize: none;
+}
+
+
 
 /* image */
 
@@ -64,3 +97,6 @@ html, body
 
 
 /* fin */
+
+
+/* Par Paul Berthelot */

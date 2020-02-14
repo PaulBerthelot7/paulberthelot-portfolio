@@ -1,15 +1,36 @@
+/* Mise en page */
+
 html, body 
 {
     margin: 0;
     padding: 0;
 }
 
+/* Le Contenu */
+
+/* header */
+#header
+{
+    border-bottom: 2px solid blue;
+
+}
+
+/* icon */
+#dl
+{
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+}
+#slash
+{
+    position: absolute;
+    right: 100px;
+    bottom: 18px;
+}
 
 
-
-
-/*CONTENU !!!!!!!!!!!!!!!*/
-
+/* Div */
 
 #grosbloc
 {
@@ -18,11 +39,6 @@ html, body
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-
-
 
 .ima
 {
@@ -57,6 +73,8 @@ html, body
     margin-left: -30px;
 }
 
+/* text */
+
 a
 {
     font-family: 'Roboto', sans-serif;
@@ -66,11 +84,7 @@ a
 }
 
 
-
-
-
-
 /* fin */
 
-
+/* Par Paul Berthelot */
 

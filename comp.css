@@ -3,13 +3,38 @@
 html, body 
 {
     font-family: 'Roboto', sans-serif;
-
     margin: 0;
     padding: 0;
 }
 
 
-/* CONTENU!!!!!!!!*/
+/* Le contenu de la page!*/
+
+/* icon */
+#dl
+{
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+}
+#slash
+{
+    position: absolute;
+    right: 100px;
+    bottom: 18px;
+}
+
+/* header */
+#header
+{
+    border-bottom: 2px solid blue;
+
+}
+
+
+
+/* Contenu primaire */
+
 
 #grosbloc
 {
@@ -63,5 +88,5 @@ html, body
 
 /* fin */
 
-
+/* Par Paul Berthelot */
 

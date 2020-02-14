@@ -1,12 +1,46 @@
 /* mise en place du css */
 html, body 
 {
+    height: 1000px;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+
+
 }
 
 /* le contenu de la page */
+
+/* icon */
+#dl
+{
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+}
+#slash
+{
+    position: absolute;
+    right: 100px;
+    bottom: 18px;
+}
+
+/* header */
+#header
+{
+    border-bottom: 2px solid blue;
+
+}
+
+/* mise en page du h2 */
+.para
+{
+    border-bottom: solid black 2px;
+      
+}
+
+
 
 #grosbloc
 {
@@ -30,6 +64,7 @@ html, body
    display:block;
    float:right;
     width: 480px;
+    padding: 80px;
    
 
 }
@@ -37,6 +72,9 @@ html, body
 /* Image */
 .ima
 {
+
+    box-shadow: 1px 4px 6px rgb(0, 0, 0);
+      
     width: 350px;
     height: 200px;
     
