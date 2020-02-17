@@ -61,7 +61,7 @@
           <a class="nav-link" href="comp.html">Compétences</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="project.html">Projet</a>
@@ -110,32 +110,18 @@
           <legend></legend>
           <p><!-- name input -->
             <label for="prenom"></label>
-            <input type="text" name="nom2" id="nom2" placeholder="Votre nom" autofocus required />
+            <input type="text" name="Name" id="nom2" placeholder="Votre nom" autofocus required />
           </p>
 
           <p><!-- email input -->
             <label for="email"></label>
-            <input type="email" name="email" id="email" placeholder="Votre email" autofocus required />
+            <input type="email" name="Email" id="email" placeholder="Votre email" autofocus required />
           </p>
 
           <p><!-- paragraphe input -->
-            <textarea id="parag" placeholder="Votre texte" rows="5" cols="50"></textarea>
+            <textarea name="Message"id="parag" placeholder="Votre texte" rows="5" cols="50"></textarea>
           </p>
 
-          <p>
-            <!-- selection du pays -->
-            <label for="pays">Dans quel pays habitez-vous ?</label><br />
-            <select name="pays" id="pays">
-              <option value="france">France</option>
-              <option value="espagne">Espagne</option>
-              <option value="italie">Italie</option>
-              <option value="royaume-uni">Royaume-Uni</option>
-              <option value="canada">Canada</option>
-              <option value="etats-unis">États-Unis</option>
-              <option value="chine">Chine</option>
-              <option value="japon">Japon</option>
-            </select>
-          </p>
           <!-- input envoyer -->
           <input type="submit" value="Envoyer">
 
@@ -151,7 +137,40 @@
 
   <div style="clear: both;">
 
+<!-- base de données -->
+<?php 
+//connexion a la base de données
+try
+{
+    $bdd = new PDO('mysql:host=localhost;dbname=id12615311_contact;charset=utf8', 'id12615311_paulberthelot7', '12345');
+    // $bdd = new PDO('mysql:host=localhost;dbname=contact;charset=utf8', 'root', ''); 
+}
+catch (Exception $e)
+{
+        die('Erreur : ' . $e->getMessage());
+}
 
+if($_POST){
+    $Name = $_POST['Name'];
+    $Email = $_POST['Email'];
+    $Message = $_POST['Message'];
+    
+    //verification si une valeur n'est pas vide
+    if (!empty($Name) AND !empty($Email) AND !empty($Message)) 
+    {
+        //envoie des valeur dans la BDD
+        $bdd->query('INSERT INTO formulaire (nom, email, message) VALUES("'.$Name.'", "'.$Email.'", "'.$Message.'")')or die('Erreur: Il y a une erreur');
+        $pop='Votre formulaire a bien été envoyé';
+        echo '<script type="text/javascript">window.alert("'.$pop.'");</script>';
+    }
+    //si un valeur est vide envoie d'une erreur
+     else {
+     $erreur='Erreur, il manque des valeurs';
+     echo '<script type="text/javascript">window.alert("'.$erreur.'");</script>';
+     };
+
+    };
+?>
 
 
 

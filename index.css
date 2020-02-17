@@ -2,8 +2,11 @@
 
 html, body 
 {
+    background-image: url(Image/backg.jpg);
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+    
 }
 
 /* Le Contenu */
@@ -67,7 +70,7 @@ html, body
     margin-left: 30px;
     width: 310px;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 18px;
     
 }
