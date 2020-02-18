@@ -15,7 +15,7 @@
   <!-- icon web -->
   <link rel="icon" href="Image/paulberthelotico.ico" />
   <!-- icon navbar link -->
-  <link href='https://css.gg/code-slash.css' rel='stylesheet'>
+  <link href='https://css.gg/profile.css' rel='stylesheet'>
   <link href='https://css.gg/software-download.css' rel='stylesheet'>
   
 </head>
@@ -70,7 +70,7 @@
       </ul>
       <!-- icon web -->
       <a href="Image/cvpb.pdf" download="cvpb " id="dl" class="gg-software-download" target="_blank"></a>
-      <i id="slash" class="gg-code-slash"></i>
+      <a href="login.php" id="slash"class="gg-profile"></a>
     </div>
   </nav>
 
@@ -140,10 +140,11 @@
 <!-- base de données -->
 <?php 
 //connexion a la base de données
+
 try
 {
     $bdd = new PDO('mysql:host=localhost;dbname=id12615311_contact;charset=utf8', 'id12615311_paulberthelot7', '12345');
-    // $bdd = new PDO('mysql:host=localhost;dbname=contact;charset=utf8', 'root', ''); 
+    // $bdd = new PDO('mysql:host=localhost;dbname=contact;charset=utf8', 'root', ''); UTILISE POUR LE LOCAL
 }
 catch (Exception $e)
 {
