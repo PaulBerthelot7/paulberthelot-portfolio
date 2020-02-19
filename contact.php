@@ -90,6 +90,8 @@
         <br />
         <p>Si vous voulez avoir accès à mon cv, veuillez cliquez sur l'icône téléchargement de la barre de navigation.
         </p>
+        <p>Si vous voulez remplir le formulaire veuillez agréer au <a href="mention.html">RGPD</a></p>
+
       </div>
       <br />
 
@@ -102,7 +104,7 @@
 <!-- bloc formulaire -->
     <div id="blocd">
       <!-- titre -->
-      <h3> Donnez moi votre avis !</h3>
+      <h3> Donnez moi votre avis ou votre recommandation !</h3>
       <!-- formulaire -->
       <form method="post">
         <fieldset>
