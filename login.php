@@ -53,12 +53,12 @@ if($_POST){
     if (!empty($Login) AND !empty($Password) )
     {if (($Login == "admin") AND ($Password =="root")) {
       echo "<href: 'https://databases-auth.000webhost.com/sql.php?server=1&db=id12615311_contact&table=formulaire&pos=0'>";
-    }
-    }
-     else {
+    }else {
       echo "Erreur";
      };
 
+    }
+     
     };
 ?>  
 

@@ -82,14 +82,13 @@
       <!-- titre -->
       <h3>Contactez moi</h3>
       <div>
-        <p> Si vous voulez me contacter je possède : </p>
+        <p> Si vous voulez me contacter : </p>
         <br />
         <p>Email : paulberthelot7@hotmail.com</p>
         <br />
         <p>Téléphone : 07 51 69 16 04</p>
         <br />
-        <p>Si vous voulez avoir accès à mon cv, veuillez cliquez sur l'icône téléchargement de la <span
-            class="surl">barre de navigation.</span>
+        <p>Si vous voulez avoir accès à mon cv, veuillez cliquez sur l'icône téléchargement de la barre de navigation.
         </p>
       </div>
       <br />
